@@ -1,0 +1,112 @@
+Hello>server127.0.0.1 5000
+This process id is 25958
+Error : No such file or directory
+Hello>server 127.0.0.1 5000
+Hello>getfl foo1.txt
+abcde
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+
+abcde
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+
+abcdeabcdeabcde
+abcde
+abcdeabcdeabcde
+
+^CForeground processes were killed
+Received SIGINT; downloaded 511 bytes so far.
+Hello>getsq foo1.txt foo2.txt
+^CForeground processes were killed
+Received SIGINT; downloaded 1022 bytes so far.
+^CForeground processes were killed
+Received SIGINT; downloaded 511 bytes so far.
+Hello>getpl foo1.txt foo2.txt
+^CForeground processes were killed
+Received SIGINT; downloaded 812 bytes so far.
+Received SIGINT; downloaded 1022 bytes so far.
+Hello>getfl foo1.txt > out.txt
+^CForeground processes were killed
+Hello>getfl foo3.txt > out.txt
+Hello>cat out.txt
+This process id is 25989
+Hello>getfl foo1.txt > out.txt
+^CForeground processes were killed
+Hello>getfl foo3.txt
+Hello>getfl foo.txt > out.txt
+^CForeground processes were killed
+Hello>getfl foo2.txt > out.txt
+Hello>cat foo2.txt
+This process id is 26048
+cat: foo2.txt: No such file or directory
+Hello>cat out.txt
+1111111
+1111111
+1111111
+
+11111111111111
+111111111111111111111
+1111111111111111111111111111
+
+1111111
+1111111
+1111111
+
+11111111111111
+111111111111111111111
+11111111111111111111111111111111111
+1111111
+1111111
+Hello>getfl foo2.txt | grep -c 1
+14
+
